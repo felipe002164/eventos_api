@@ -15,4 +15,4 @@ def get_db():
         db.close()
 
 def crear_tablas():
-    Base.metadata.create_all(engine)
+    Base.metadata.create_all(engine) 
